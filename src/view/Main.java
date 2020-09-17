@@ -14,8 +14,8 @@ public class Main {
 			}
 		}
 		for(int i = 0; i < 3; i++) {
-			int [] vet = matriz[i];
-			Thread t = new ThreadCalc(vet, i);
+			int [] vetor = matriz[i];
+			Thread t = new ThreadCalc(vetor, i);
 			t.start();
 		}
 	}
